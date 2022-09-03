@@ -69,3 +69,6 @@ ggplot(summary_tidy, aes(x = viewers_mean, y = total_views)) +
 ggplot(summary_tidy, aes(x = season, y = total_views)) +
   geom_point(aes(color = country)) +
   geom_smooth(method = lm)
+
+#mnew stuff
+
